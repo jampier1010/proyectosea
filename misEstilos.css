@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family:Georgia;  
+    
+}
+body{
+    background-image: url(img/fondonuevo.jpg);
+   
+}
+.slider {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   height: 60%;
+
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    
+    
+    
+
+}
+@keyframes cambio{
+   0%{margin-left:0;}
+   20%{margin-left:0;}
+   
+   25%{margin-left: -100%;}
+   45%{margin-left: -100%;}
+   
+   50%{margin-left: -200%;}
+   70%{margin-left: -200%;}
+   
+   75%{margin-left: -300%;}
+   100%{margin-left: -300%;}
+}
+
+.container-all{
+    width:100%;
+    max-width: 1000px;
+    margin:auto;
+    padding: 60px;
+    background: white;
+    margin-top: 100px;
+    border-top: 6px solid #2E9AFE ;
+ }
+ 
+ .delion img{
+     margin: auto;
+     float: right;
+     margin-right: 60px;
+     margin-top: 15px;
+ }
+
+
+
+.container-all img{   
+    width:300px
+
+}
+img{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.redes{
+    height:200px;
+    background-color: #E0F8F7;
+    padding: 30px;
+}
+.redes h3{
+    font-family: gabriola;
+    text-align: center;
+}
+.sociales {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sociales li{
+    display: inline-block;
+}
+ 
+.google{
+    height:200px;
+    background-color: #E0F8F7;
+    padding: 30px;
+}
+.google h4{
+    font-family: gabriola;
+    text-align: center;
+}
+.formulario{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.formulario li{
+   display: inline-block; 
+}
+
+
+.fb-comments{
+    height:200px;
+    background-color: #E0F8F7;
+    padding: 30px ;
+}
